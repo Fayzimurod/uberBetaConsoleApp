@@ -1,1 +1,1 @@
-Beta type type of app 
+Beta type type of app Uber
