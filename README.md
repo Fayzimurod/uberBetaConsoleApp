@@ -52,6 +52,8 @@ graph LR
     B --> C[Ride Started]
     C --> D[Ride Completed]
     D --> E[Payment & Rating]
+```
+
 
 ## 🔧 System Requirements
 
