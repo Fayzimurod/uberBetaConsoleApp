@@ -45,3 +45,10 @@ A comprehensive console-based ride-sharing application simulating core functiona
 6. **View Current Ride Details** - Check active ride information
 7. **View Ride History** - See all completed rides
 8. **Exit** - Close the application
+
+graph LR
+    A[Request Ride] --> B[Driver Matched]
+    B --> C[Ride Started]
+    C --> D[Ride Completed]
+    D --> E[Payment & Rating]
+
