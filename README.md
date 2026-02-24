@@ -46,14 +46,12 @@ A comprehensive console-based ride-sharing application simulating core functiona
 7. **View Ride History** - See all completed rides
 8. **Exit** - Close the application
 
----
----
-===
-===
-/// 
-/// 
-
-
+```mermaid
+graph LR
+    A[Request Ride] --> B[Driver Matched]
+    B --> C[Ride Started]
+    C --> D[Ride Completed]
+    D --> E[Payment & Rating]
 
 ## 🔧 System Requirements
 
