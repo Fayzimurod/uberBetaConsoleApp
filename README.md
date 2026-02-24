@@ -46,9 +46,42 @@ A comprehensive console-based ride-sharing application simulating core functiona
 7. **View Ride History** - See all completed rides
 8. **Exit** - Close the application
 
-graph LR
-    A[Request Ride] --> B[Driver Matched]
-    B --> C[Ride Started]
-    C --> D[Ride Completed]
-    D --> E[Payment & Rating]
+---
+---
+===
+===
+/// 
+/// 
+
+
+
+## 🔧 System Requirements
+
+- Java JDK 8 or higher
+- Any IDE (Eclipse, IntelliJ IDEA, VS Code)
+- Terminal/Command Prompt for execution
+
+## 🙏 Acknowledgments
+
+- Inspired by Uber's core functionality
+- Java OOP concepts implementation
+- Console-based UI design patterns
+
+## 🆕 Version History
+
+### v1.0.0 (Current)
+
+- ✅ Basic ride request and matching
+- ✅ Driver and user management
+- ✅ Payment processing
+- ✅ Rating system
+- ✅ Ride history tracking
+
+## 💡 Key Concepts Demonstrated
+
+- **Encapsulation**: Private fields with public getters/setters
+- **Composition**: Ride class contains User and Driver objects
+- **List Management**: Dynamic collections for data storage
+- **Input Validation**: User input checking and error handling
+- **State Management**: Ride status lifecycle tracking
 
